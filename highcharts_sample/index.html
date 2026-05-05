@@ -7,9 +7,15 @@
 
     <link rel="stylesheet" href="styles.css" />
 
-    <!-- Highcharts + Accessibility -->
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <!-- 
+      NOTE: Some environments may block code.highcharts.com (403 Forbidden).
+      If charts do not load, use the cdnjs links below instead.
+      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+      -->
+    <!-- Fallback (more reliable) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/11.2.0/highcharts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/11.2.0/modules/accessibility.js"></script>
 
     <script src="script.js" defer></script>
 </head>
